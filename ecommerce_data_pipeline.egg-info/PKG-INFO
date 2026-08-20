@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: ecommerce-data-pipeline
+Version: 0.1.0
+Summary: E-commerce data pipeline using PySpark and PostgreSQL
+Requires-Python: <3.13,>=3.12
+Requires-Dist: pyspark==4.2.0
+Requires-Dist: py4j==0.10.9.9
+Requires-Dist: pandas<3.0
+Requires-Dist: psycopg2-binary>=2.9.9
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: ruff>=0.8; extra == "dev"
